@@ -31,3 +31,5 @@ To re-run the existing configuration, set a hotkey for `Run`.
 Use the **DejaVu Sans Mono** font because it makes key characters such as "⟩" and subscript numbers actually monospace.
 Then also set your fallback font to **Bravura**, so the unicode characters for Sagittal symbols such as "" will display. 
 You may need to uncheck "Only show monospaced fonts" to get Bravura to appear in the list.
+
+You may need to run `npm config set script-shell "C:\Program Files\Git\bin\sh.exe"`; otherwise, characters like '⟩' may not output properly.
