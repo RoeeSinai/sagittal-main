@@ -12,9 +12,9 @@ cd sagittal-main
 git submodule foreach git checkout main
 ```
 
-You will need to install Node on your system.
-
 in order to get all the submodules set up properly.
+
+You will need to install Node on your system.
 
 ### submodules
 
